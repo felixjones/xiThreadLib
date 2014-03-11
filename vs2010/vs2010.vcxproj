@@ -19,10 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\JobManager.h" />
     <ClInclude Include="..\include\os.h" />
     <ClInclude Include="..\include\SysAtomic.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\source\JobManager.cpp" />
     <ClCompile Include="..\source\SysAtomic.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

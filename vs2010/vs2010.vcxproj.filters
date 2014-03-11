@@ -7,6 +7,9 @@
     <ClInclude Include="..\include\SysAtomic.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\JobManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
@@ -18,6 +21,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\source\SysAtomic.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\JobManager.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
