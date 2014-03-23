@@ -10,6 +10,9 @@
     <ClInclude Include="..\include\JobManager.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\SysTick.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
