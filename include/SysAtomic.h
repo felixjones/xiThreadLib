@@ -4,12 +4,13 @@
 #include <stdint.h>
 
 namespace Sys {
-	uintptr_t	IncrementPtr( volatile uintptr_t * const val );
-	uintptr_t	DecrementPtr( volatile uintptr_t * const val );
-	uint32_t	Increment32( volatile uint32_t * const val );
-	uint32_t	Decrement32( volatile uint32_t * const val );
-	uint64_t	Increment64( volatile uint64_t * const val );
-	uint64_t	Decrement64( volatile uint64_t * const val );
+	intptr_t	IncrementPtr( volatile intptr_t * const val );
+	intptr_t	DecrementPtr( volatile intptr_t * const val );
+	int32_t		Increment32( volatile int32_t * const val );
+	int32_t		Decrement32( volatile int32_t * const val );
+	int64_t		Increment64( volatile int64_t * const val );
+	int64_t		Decrement64( volatile int64_t * const val );
+	uint64_t	Tick();
 }
 
 #endif

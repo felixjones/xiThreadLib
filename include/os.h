@@ -5,16 +5,8 @@
 	#define __WINDOWS__
 
 	#if defined( _WIN64 ) || defined( WIN64 )
-		#if !defined( _WIN64 )
-			#define _WIN64
-		#endif
-
 		#define __X64__
 	#elif defined( _WIN32 ) || defined( WIN32 )
-		#if !defined( _WIN32 )
-			#define _WIN32
-		#endif
-
 		#define __X32__
 	#endif
 
@@ -26,7 +18,7 @@
 #if defined( __APPLE__ )
 	#include <TargetConditionals.h>
 
-	#if defined( TARGET_OS_MAC )
+	#if defined( TARGET_OS_MAC ) && defined( __LP64__ )
 		#define __OS_X__
 		#define __X64__
 	#endif
