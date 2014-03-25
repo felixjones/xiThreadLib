@@ -10,7 +10,7 @@
     <ClInclude Include="..\include\JobManager.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\SysTick.h">
+    <ClInclude Include="..\include\SmartPointer.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
@@ -27,6 +27,9 @@
       <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="..\source\JobManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SmartPointer.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>

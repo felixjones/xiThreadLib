@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xiThread", "vs2010.vcxproj", "{5C324DCF-C583-4A09-AE75-77B7B79C7CF0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example.01", "..\examples\example.01\example.01.vcxproj", "{1DD1149B-AA2E-4ADE-BDEE-4527D128C08A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example", "..\examples\example\example.vcxproj", "{BBEA6134-13E8-4F8C-AD2D-DD36B37CC4A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +21,12 @@ Global
 		{5C324DCF-C583-4A09-AE75-77B7B79C7CF0}.Release|Win32.Build.0 = Release|Win32
 		{5C324DCF-C583-4A09-AE75-77B7B79C7CF0}.Release|x64.ActiveCfg = Release|x64
 		{5C324DCF-C583-4A09-AE75-77B7B79C7CF0}.Release|x64.Build.0 = Release|x64
-		{1DD1149B-AA2E-4ADE-BDEE-4527D128C08A}.Debug|Win32.ActiveCfg = Debug|x64
-		{1DD1149B-AA2E-4ADE-BDEE-4527D128C08A}.Debug|Win32.Build.0 = Debug|x64
-		{1DD1149B-AA2E-4ADE-BDEE-4527D128C08A}.Debug|x64.ActiveCfg = Debug|Win32
-		{1DD1149B-AA2E-4ADE-BDEE-4527D128C08A}.Release|Win32.ActiveCfg = Release|Win32
-		{1DD1149B-AA2E-4ADE-BDEE-4527D128C08A}.Release|Win32.Build.0 = Release|Win32
-		{1DD1149B-AA2E-4ADE-BDEE-4527D128C08A}.Release|x64.ActiveCfg = Release|Win32
+		{BBEA6134-13E8-4F8C-AD2D-DD36B37CC4A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BBEA6134-13E8-4F8C-AD2D-DD36B37CC4A3}.Debug|Win32.Build.0 = Debug|Win32
+		{BBEA6134-13E8-4F8C-AD2D-DD36B37CC4A3}.Debug|x64.ActiveCfg = Debug|Win32
+		{BBEA6134-13E8-4F8C-AD2D-DD36B37CC4A3}.Release|Win32.ActiveCfg = Release|Win32
+		{BBEA6134-13E8-4F8C-AD2D-DD36B37CC4A3}.Release|Win32.Build.0 = Release|Win32
+		{BBEA6134-13E8-4F8C-AD2D-DD36B37CC4A3}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

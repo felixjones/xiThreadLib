@@ -7,15 +7,15 @@
 	#include <Windows.h>
 
 	#if defined( __X32__ )
-		#define SYS_INC( X )	InterlockedIncrement( X )
-		#define SYS_DEC( X )	InterlockedDecrement( X )
+		#define SYS_INC( X )	InterlockedIncrement( ( volatile uint32_t * )X )
+		#define SYS_DEC( X )	InterlockedDecrement( ( volatile uint32_t * )X )
 	#elif defined( __X64__ )
-		#define SYS_INC( X )	InterlockedIncrement64( X )
-		#define SYS_DEC( X )	InterlockedDecrement64( X )
+		#define SYS_INC( X )	InterlockedIncrement64( ( volatile int64_t * )X )
+		#define SYS_DEC( X )	InterlockedDecrement64( ( volatile int64_t * )X )
 	#endif
 
-	#define SYS_INC32( X )	InterlockedIncrement( X )
-	#define SYS_DEC32( X )	InterlockedDecrement( X )
+	#define SYS_INC32( X )	InterlockedIncrement( ( volatile uint32_t * )X )
+	#define SYS_DEC32( X )	InterlockedDecrement( ( volatile uint32_t * )X )
 	#define SYS_INC64( X )	InterlockedIncrement64( X )
 	#define SYS_DEC64( X )	InterlockedDecrement64( X )
 
